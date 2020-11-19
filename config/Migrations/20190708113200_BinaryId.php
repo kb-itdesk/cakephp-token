@@ -10,7 +10,7 @@ class BinaryId extends AbstractMigration
         $table = $this->table('token_tokens');
 
         $table
-            ->alterColumn('id', 'string', ['limit' => 8, 'collation' => 'utf8_bin'])
+            ->changeColumn('id', 'string', ['limit' => 256, 'collation' => 'utf8_bin'])
             ->save();
     }
 

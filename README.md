@@ -1,7 +1,7 @@
 # CakePHP 3 Token plugin
 
 ## Description
-This is a really "simple to use" cakephp 3 plugin for generating and reading temporaries tokens
+This is a really "simple to use" cakephp 4 plugin for generating and reading temporaries tokens
 
 ## Installation
 ```bash
